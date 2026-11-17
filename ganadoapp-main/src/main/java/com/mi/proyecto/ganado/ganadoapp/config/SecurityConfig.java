@@ -43,6 +43,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/", "/login", "/registro/invitacion", "/registro/invitacion/**", "/css/**", "/js/**", "/images/**", "/webjars/**")
                         .permitAll()
+                        .requestMatchers("/optimizacion/**").hasAnyRole("ADMIN", "VETERINARIO")
                         .requestMatchers("/usuarios/**").hasRole("ADMIN")
                         .requestMatchers("/chatbot", "/api/chat/**").hasAnyRole("ADMIN", "VETERINARIO")
                         .requestMatchers("/ganado/nuevo", "/ganado/guardar", "/ganado/existe-arete").hasRole("ADMIN")

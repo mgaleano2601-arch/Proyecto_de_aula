@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+!.env.taller.example
+**/target/
+**/.pbi/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.log

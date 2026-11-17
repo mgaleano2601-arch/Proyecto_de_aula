@@ -20,12 +20,13 @@
         <a th:href="@{/ganado/estadisticas}" sec:authorize="hasRole('ADMIN')" th:classappend="${active == 'stats'} ? ' is-active'">
             <i class="fas fa-chart-column"></i> Estadísticas
         </a>
-        <a href="https://app.powerbi.com/groups/me/reports/af0d9c68-5003-45d8-be7d-2775bd3e9a0c/b457f95b4fca93a34527?experience=power-bi"
+        <a href="https://github.com/mgaleano2601-arch/Proyecto_de_aula/raw/refs/heads/main/analitica/BoviControl.pbix"
            sec:authorize="hasRole('ADMIN')" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-chart-line"></i> Dashboard Power BI
         </a>
 
         <p class="app-nav-label">Salud animal</p>
+        <a th:href="@{/optimizacion}">Planificar atenciones</a>
         <a th:href="@{/ganado/gestion-sanitaria}" th:classappend="${active == 'sanitaria'} ? ' is-active'">
             <i class="fas fa-heart-pulse"></i> Gestión sanitaria
         </a>

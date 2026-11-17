@@ -1,0 +1,32 @@
+Animales registrados =
+COUNTROWS(DimAnimal)
+
+Vacunas aplicadas =
+SUM(FactVacunacion[Dosis])
+
+Animales con aplicaciones =
+DISTINCTCOUNT(FactVacunacion[AnimalKey])
+
+Dosis vencidas al corte =
+CALCULATE([Vacunas aplicadas], REMOVEFILTERS(DimFecha), DimEstado[EstadoKey] = 1, FactVacunacion[EsUltimoRegistro] = 1)
+
+Dosis proximas 7 dias =
+CALCULATE([Vacunas aplicadas], REMOVEFILTERS(DimFecha), DimEstado[EstadoKey] = 2, FactVacunacion[EsUltimoRegistro] = 1)
+
+Litros registrados =
+SUM(FactLeche[Litros])
+
+Registros de leche =
+COUNTROWS(FactLeche)
+
+Animales con produccion =
+DISTINCTCOUNT(FactLeche[AnimalKey])
+
+Litros por animal con produccion =
+DIVIDE([Litros registrados], [Animales con produccion])
+
+Dosis por fecha proxima =
+CALCULATE([Vacunas aplicadas], USERELATIONSHIP(DimFecha[FechaKey], FactVacunacion[FechaProximaKey]), FactVacunacion[EsUltimoRegistro] = 1)
+
+Aviso demo =
+"DATOS FICTICIOS | Corte 07/10/2026"

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "codigo_identificacion": "BOV-001",
+    "numero_arete": "DEMO-001",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 2,
+    "codigo_identificacion": "BOV-002",
+    "numero_arete": "DEMO-002",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 3,
+    "codigo_identificacion": "BOV-003",
+    "numero_arete": "DEMO-003",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 4,
+    "codigo_identificacion": "BOV-004",
+    "numero_arete": "DEMO-004",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 5,
+    "codigo_identificacion": "BOV-005",
+    "numero_arete": "DEMO-005",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "En observación"
+  },
+  {
+    "id": 6,
+    "codigo_identificacion": "BOV-006",
+    "numero_arete": "DEMO-006",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 7,
+    "codigo_identificacion": "BOV-007",
+    "numero_arete": "DEMO-007",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 8,
+    "codigo_identificacion": "BOV-008",
+    "numero_arete": "DEMO-008",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 9,
+    "codigo_identificacion": "BOV-009",
+    "numero_arete": "DEMO-009",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 10,
+    "codigo_identificacion": "BOV-010",
+    "numero_arete": "DEMO-010",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 11,
+    "codigo_identificacion": "BOV-011",
+    "numero_arete": "DEMO-011",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 12,
+    "codigo_identificacion": "BOV-012",
+    "numero_arete": "DEMO-012",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 13,
+    "codigo_identificacion": "BOV-013",
+    "numero_arete": "DEMO-013",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 14,
+    "codigo_identificacion": "BOV-014",
+    "numero_arete": "DEMO-014",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 15,
+    "codigo_identificacion": "BOV-015",
+    "numero_arete": "DEMO-015",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 16,
+    "codigo_identificacion": "BOV-016",
+    "numero_arete": "DEMO-016",
+    "raza": "Holstein",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 17,
+    "codigo_identificacion": "BOV-017",
+    "numero_arete": "DEMO-017",
+    "raza": "Jersey",
+    "sexo": "Hembra",
+    "estado_salud": "En observación"
+  },
+  {
+    "id": 18,
+    "codigo_identificacion": "BOV-018",
+    "numero_arete": "DEMO-018",
+    "raza": "Pardo Suizo",
+    "sexo": "Hembra",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 19,
+    "codigo_identificacion": "BOV-019",
+    "numero_arete": "DEMO-019",
+    "raza": "Holstein",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 20,
+    "codigo_identificacion": "BOV-020",
+    "numero_arete": "DEMO-020",
+    "raza": "Jersey",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 21,
+    "codigo_identificacion": "BOV-021",
+    "numero_arete": "DEMO-021",
+    "raza": "Pardo Suizo",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 22,
+    "codigo_identificacion": "BOV-022",
+    "numero_arete": "DEMO-022",
+    "raza": "Holstein",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 23,
+    "codigo_identificacion": "BOV-023",
+    "numero_arete": "DEMO-023",
+    "raza": "Jersey",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  },
+  {
+    "id": 24,
+    "codigo_identificacion": "BOV-024",
+    "numero_arete": "DEMO-024",
+    "raza": "Pardo Suizo",
+    "sexo": "Macho",
+    "estado_salud": "Sin novedad"
+  }
+]
