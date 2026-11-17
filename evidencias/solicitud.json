@@ -1,0 +1,72 @@
+{
+  "attentions": [
+    {
+      "id": 1,
+      "name": "BOV-DEMO-01 / dosis A",
+      "topic": "Norte",
+      "priority": 3,
+      "durationMinutes": 40
+    },
+    {
+      "id": 2,
+      "name": "BOV-DEMO-02 / dosis B",
+      "topic": "Norte",
+      "priority": 2,
+      "durationMinutes": 30
+    },
+    {
+      "id": 3,
+      "name": "BOV-DEMO-03 / dosis C",
+      "topic": "Norte",
+      "priority": 1,
+      "durationMinutes": 20
+    },
+    {
+      "id": 4,
+      "name": "BOV-DEMO-04 / dosis D",
+      "topic": "Sur",
+      "priority": 3,
+      "durationMinutes": 30
+    },
+    {
+      "id": 5,
+      "name": "BOV-DEMO-05 / dosis E",
+      "topic": "Sur",
+      "priority": 2,
+      "durationMinutes": 30
+    },
+    {
+      "id": 6,
+      "name": "BOV-DEMO-06 / dosis F",
+      "topic": "Oriente",
+      "priority": 3,
+      "durationMinutes": 20
+    }
+  ],
+  "veterinarians": [
+    {
+      "id": 1,
+      "name": "Veterinaria demo Norte",
+      "specialty": "Norte",
+      "maxCapacity": 2,
+      "availableMinutes": 60,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Veterinario demo Sur",
+      "specialty": "Sur",
+      "maxCapacity": 1,
+      "availableMinutes": 30,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Veterinaria demo sin turno",
+      "specialty": "Oriente",
+      "maxCapacity": 2,
+      "availableMinutes": 60,
+      "available": false
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+Picked up JAVA_TOOL_OPTIONS: -Djdk.net.unixdomain.tmpdir="C:/Users/Aprendiz IN/Documents/Codex/2026-11-04/qu/work/tmp"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.tuempresa:ganadoapp >-----------------------
+[INFO] Building ganadoapp 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ganadoapp ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 38 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ganadoapp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ganadoapp ---
+[INFO] skip non existing resourceDirectory C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\Proyecto_de_aula\ganadoapp-main\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ganadoapp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ ganadoapp ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Djdk.net.unixdomain.tmpdir="C:/Users/Aprendiz IN/Documents/Codex/2026-11-04/qu/work/tmp"
+[INFO] Running com.mi.proyecto.ganado.ganadoapp.GanadoappApplicationTests
+14:00:12.330 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mi.proyecto.ganado.ganadoapp.GanadoappApplicationTests]: GanadoappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:00:12.507 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mi.proyecto.ganado.ganadoapp.GanadoappApplication for test class com.mi.proyecto.ganado.ganadoapp.GanadoappApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-11-04T14:00:13.210-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.GanadoappApplicationTests      : Starting GanadoappApplicationTests using Java 21.0.12.1 with PID 8112 (started by Aprendiz IN in C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\Proyecto_de_aula\ganadoapp-main)
+2026-11-04T14:00:13.212-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.GanadoappApplicationTests      : The following 1 profile is active: "taller"
+2026-11-04T14:00:14.741-05:00  INFO 8112 --- [ganadoapp] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-04T14:00:14.862-05:00  INFO 8112 --- [ganadoapp] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 7 JPA repository interfaces.
+2026-11-04T14:00:15.888-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-04T14:00:16.367-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21a46ff1
+2026-11-04T14:00:16.370-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-04T14:00:16.670-05:00  INFO 8112 --- [ganadoapp] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-04T14:00:16.993-05:00  INFO 8112 --- [ganadoapp] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-11-04T14:00:17.065-05:00  INFO 8112 --- [ganadoapp] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-04T14:00:17.702-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-04T14:00:19.259-05:00  INFO 8112 --- [ganadoapp] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-04T14:00:19.427-05:00  INFO 8112 --- [ganadoapp] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04T14:00:20.197-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-04T14:00:22.211-05:00  INFO 8112 --- [ganadoapp] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name usuarioService
+2026-11-04T14:00:23.511-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.GanadoappApplicationTests      : Started GanadoappApplicationTests in 10.821 seconds (process running for 12.276)
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\runtime\m2\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.11 s -- in com.mi.proyecto.ganado.ganadoapp.GanadoappApplicationTests
+[INFO] Running com.mi.proyecto.ganado.ganadoapp.PrediccionLechePageTest
+2026-11-04T14:00:24.185-05:00  INFO 8112 --- [ganadoapp] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mi.proyecto.ganado.ganadoapp.PrediccionLechePageTest]: PrediccionLechePageTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-04T14:00:24.205-05:00  INFO 8112 --- [ganadoapp] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mi.proyecto.ganado.ganadoapp.GanadoappApplication for test class com.mi.proyecto.ganado.ganadoapp.PrediccionLechePageTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-11-04T14:00:24.330-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.PrediccionLechePageTest        : Starting PrediccionLechePageTest using Java 21.0.12.1 with PID 8112 (started by Aprendiz IN in C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\Proyecto_de_aula\ganadoapp-main)
+2026-11-04T14:00:24.330-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.PrediccionLechePageTest        : The following 1 profile is active: "taller"
+2026-11-04T14:00:24.825-05:00  INFO 8112 --- [ganadoapp] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-04T14:00:24.848-05:00  INFO 8112 --- [ganadoapp] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 7 JPA repository interfaces.
+2026-11-04T14:00:25.014-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-11-04T14:00:25.029-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@328b60fb
+2026-11-04T14:00:25.029-05:00  INFO 8112 --- [ganadoapp] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-11-04T14:00:25.084-05:00  INFO 8112 --- [ganadoapp] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-04T14:00:25.090-05:00  INFO 8112 --- [ganadoapp] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-04T14:00:25.094-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-04T14:00:25.304-05:00  INFO 8112 --- [ganadoapp] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-04T14:00:25.384-05:00  INFO 8112 --- [ganadoapp] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-04T14:00:25.668-05:00  INFO 8112 --- [ganadoapp] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name usuarioService
+2026-11-04T14:00:25.885-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-04T14:00:25.885-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-04T14:00:25.885-05:00  INFO 8112 --- [ganadoapp] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-11-04T14:00:25.899-05:00  INFO 8112 --- [ganadoapp] [           main] c.m.p.g.g.PrediccionLechePageTest        : Started PrediccionLechePageTest in 1.682 seconds (process running for 14.657)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /ganado/prediccion/1
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository.CSRF_TOKEN=org.springframework.security.web.csrf.DefaultCsrfToken@66d43e76, SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin@bovicontrol.test, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]}
+
+Handler:
+             Type = com.mi.proyecto.ganado.ganadoapp.controller.GanadoController
+           Method = com.mi.proyecto.ganado.ganadoapp.controller.GanadoController#verPrediccionLeche(Long, Model, RedirectAttributes)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = prediccion-leche
+             View = null
+        Attribute = ganado
+            value = Ganado{id=1, codigoIdentificacion='BOV-2026-F9B666', numeroArete='DEMO-01', marcaHierro='DEMO', nombre='Bovino demo 1', raza='Demostraci�n', peso=400.0, edad=3.0 a�os, sexo='Hembra', estadoSalud='Demostraci�n', propietario='Datos sint�ticos del taller'}
+           errors = []
+        Attribute = graficoLeche
+            value = com.mi.proyecto.ganado.ganadoapp.mode.DatosGraficoLeche@1935b63b
+           errors = []
+        Attribute = chartEtiquetas
+            value = [06/10, 07/10, 08/10, 09/10, 10/10, 11/10, 12/10, 13/10, 14/10, 15/10, 16/10, 17/10, 18/10, 19/10, 20/10, 21/10, 22/10, 23/10, 24/10, 25/10, 26/10, 27/10, 28/10, 29/10, 30/10, 31/10, 01/11, 02/11, 03/11, 04/11, 05/11 (pred.)]
+        Attribute = chartProduccionReal
+            value = [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+        Attribute = chartLineaRegresion
+            value = [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0]
+        Attribute = chartRegresionDisponible
+            value = false
+        Attribute = prediccionLecheManana
+            value = 0.0
+        Attribute = prediccionLeche7Dias
+            value = 0.0
+        Attribute = prediccionLeche30Dias
+            value = 0.0
+        Attribute = leche7Dias
+            value = 0.0
+        Attribute = leche30Dias
+            value = 0.0
+        Attribute = historialLeche
+            value = []
+        Attribute = registrosLeche
+            value = []
+        Attribute = hoy
+            value = 2026-11-04
+        Attribute = periodo7Dias
+            value = 29/10/2026 - 04/11/2026
+        Attribute = periodo30Dias
+            value = 06/10/2026 - 04/11/2026
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Predicci�n de leche - Bovino demo 1 | BoviControl</title>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-ganado-grande.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/ganado-ui.css">
+</head>
+<body class="app-body">
+<aside class="app-sidebar" id="app-sidebar">
+    <a class="app-brand" href="/ganado/lista">
+        <span class="brand-badge"><img src="/images/ganado-mark.svg" alt="Silueta de ganado"></span>
+        <span>
+            <strong>BoviControl</strong>
+        </span>
+    </a>
+
+    <nav class="app-nav" aria-label="Men� principal">
+        <p class="app-nav-label">Operaci�n</p>
+        <a href="/ganado/lista" class=" is-active">
+            <i class="fas fa-border-all"></i> Panel del hato
+        </a>
+        <a href="/ganado/nuevo">
+            <i class="fas fa-plus"></i> Registrar bovino
+        </a>
+        <a href="/ganado/estadisticas">
+            <i class="fas fa-chart-column"></i> Estad�sticas
+        </a>
+        <a href="https://app.powerbi.com/groups/me/reports/af0d9c68-5003-45d8-be7d-2775bd3e9a0c/b457f95b4fca93a34527?experience=power-bi"
+           target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-chart-line"></i> Dashboard Power BI
+        </a>
+
+        <p class="app-nav-label">Salud animal</p>
+        <a href="/optimizacion">Planificar atenciones</a>
+        <a href="/ganado/gestion-sanitaria">
+            <i class="fas fa-heart-pulse"></i> Gesti�n sanitaria
+        </a>
+        <a href="/vacuna/todas">
+            <i class="fas fa-syringe"></i> Vacunas
+        </a>
+        
+
+        <p class="app-nav-label">Administraci�n</p>
+        <a href="/usuarios">
+            <i class="fas fa-users"></i> Usuarios
+        </a>
+        <a href="/usuarios/invitaciones">
+            <i class="fas fa-envelope"></i> Invitaciones
+        </a>
+    </nav>
+
+    <div class="app-sidebar-foot">
+        <div class="app-user-card">
+            <span class="app-user-avatar"><i class="fas fa-user"></i></span>
+            <div>
+                <strong>admin@bovicontrol.test</strong>
+                <small>Administrador</small>
+                
+            </div>
+        </div>
+        <form action="/logout" method="post"><input type="hidden" name="_csrf" value="84OO3x28YixOllshuGh5R9bILSn0dppJnz93SaRFqB--0ebEwrLo7n-IVhVjpGMRjEVNI-euAEjFEKNkqV5BK5QjziuKsIWl"/>
+            <input type="hidden" name="_csrf" value="84OO3x28YixOllshuGh5R9bILSn0dppJnz93SaRFqB--0ebEwrLo7n-IVhVjpGMRjEVNI-euAEjFEKNkqV5BK5QjziuKsIWl">
+            <button class="btn btn-outline btn-mini app-logout" type="submit">
+                <i class="fas fa-right-from-bracket"></i> Cerrar sesi�n
+            </button>
+        </form>
+    </div>
+</aside>
+<div class="app-frame">
+    <header class="app-topbar">
+    <button class="app-menu-btn" type="button" id="sidebar-toggle" aria-label="Abrir o cerrar men�">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="app-topbar-copy">
+        <p class="app-greeting"><span data-greeting>Hola</span></p>
+        <h1>Predicci�n de leche</h1>
+        <p class="muted">Trazabilidad productiva del animal</p>
+    </div>
+    <div class="app-topbar-meta">
+        <span class="sync-pill"><i class="fas fa-circle"></i> En l�nea</span>
+        <span class="chip"><i class="fas fa-shield-halved"></i> Admin</span>
+        
+    </div>
+</header>
+    <main class="app-content">
+    <section class="section">
+        
+        
+    </section>
+
+    <section class="hero">
+        <div class="hero-card" data-reveal>
+            <div class="hero-content">
+                <span class="eyebrow"><i class="fas fa-cow"></i> Predicci�n individual</span>
+                <h1>Bovino demo 1</h1>
+                <p class="page-subtitle">Vista exclusiva de predicci�n para an�lisis de producci�n de leche.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="summary-grid">
+            <div class="metric-card" data-reveal>
+                <div class="metric-label">Predicci�n ma�ana</div>
+                <div class="metric-value">0.0 L</div>
+                <div class="metric-hint">Estimaci�n para el siguiente d�a</div>
+            </div>
+            <div class="metric-card" data-reveal>
+                <div class="metric-label">Predicci�n pr�xima semana</div>
+                <div class="metric-value">0.0 L</div>
+                <div class="metric-hint">Proyecci�n sobre registros recientes</div>
+            </div>
+            <div class="metric-card" data-reveal>
+                <div class="metric-label">Predicci�n pr�ximo mes</div>
+                <div class="metric-value">0.0 L</div>
+                <div class="metric-hint">Proyecci�n basada en tendencia mensual</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="table-card" data-reveal>
+            <div class="page-head">
+                <div>
+                    <h2 class="page-title">Gr�fica de producci�n y regresi�n lineal</h2>
+                    <p class="page-subtitle">
+                        Litros reales por d�a (barras), tendencia estimada con regresi�n lineal (Weka)
+                        
+                        <span>. Registra al menos 3 d�as con orde�o para activar la l�nea de tendencia.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="chart-leche-container">
+                <canvas id="graficoLeche" aria-label="Gr�fica de producci�n de leche"></canvas>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="table-card" data-reveal>
+            <div class="page-head">
+                <div>
+                    <h2 class="page-title">Producci�n reciente</h2>
+                    <p class="page-subtitle">Contexto de producci�n real para interpretar la predicci�n.</p>
+                </div>
+            </div>
+            <div class="summary-grid">
+                <div class="metric-card">
+                    <div class="metric-label">�ltimos 7 d�as</div>
+                    <div class="metric-value">0.0 L</div>
+                    <div class="metric-hint">29/10/2026 - 04/11/2026</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">�ltimos 30 d�as</div>
+                    <div class="metric-value">0.0 L</div>
+                    <div class="metric-hint">06/10/2026 - 04/11/2026</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="table-card" data-reveal>
+            <div class="page-head">
+                <div>
+                    <h2 class="page-title">Registrar orde�o real</h2>
+                    <p class="page-subtitle">Captura litros por fecha y turno para construir trazabilidad real.</p>
+                </div>
+            </div>
+            <form action="/ganado/leche/registrar" method="post" class="form-grid"><input type="hidden" name="_csrf" value="84OO3x28YixOllshuGh5R9bILSn0dppJnz93SaRFqB--0ebEwrLo7n-IVhVjpGMRjEVNI-euAEjFEKNkqV5BK5QjziuKsIWl"/>
+                <input type="hidden" name="_csrf" value="84OO3x28YixOllshuGh5R9bILSn0dppJnz93SaRFqB--0ebEwrLo7n-IVhVjpGMRjEVNI-euAEjFEKNkqV5BK5QjziuKsIWl">
+                <input type="hidden" name="ganadoId" value="1">
+                <div class="field span-4">
+                    <label for="fechaRegistro">Fecha</label>
+                    <input class="input" type="date" id="fechaRegistro" name="fechaRegistro" value="2026-11-04" min="2026-11-04" max="2026-11-04" required>
+                </div>
+                <div class="field span-4">
+                    <label for="turno">Turno</label>
+                    <select class="select" id="turno" name="turno" required>
+                        <option value="MANANA">Ma�ana</option>
+                        <option value="TARDE">Tarde</option>
+                        <option value="NOCHE">Noche</option>
+                    </select>
+                </div>
+                <div class="field span-4">
+                    <label for="litros">Litros</label>
+                    <input class="input" type="number" id="litros" name="litros" min="0.1" max="80" step="0.1" required>
+                </div>
+                <div class="field span-12">
+                    <label for="observacion">Observaci�n (opcional)</label>
+                    <input class="input" type="text" id="observacion" name="observacion" maxlength="255" placeholder="Ej: Producci�n baja por clima">
+                </div>
+                <div class="field span-12">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-floppy-disk"></i> Guardar registro de leche</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <section class="section">
+        <div class="table-card" data-reveal>
+            <div class="page-head">
+                <div>
+                    <h2 class="page-title">Historial de orde�os</h2>
+                    <p class="page-subtitle">Registros reales por fecha y turno.</p>
+                </div>
+            </div>
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Turno</th>
+                        <th>Litros</th>
+                        <th>Observaci�n</th>
+                        <th>Acciones</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td colspan="5"><div class="empty-card">A�n no hay registros reales de orde�o para este bovino.</div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="table-card" data-reveal>
+            <div class="page-head">
+                <div>
+                    <h2 class="page-title">Historial diario de producci�n</h2>
+                    <p class="page-subtitle">Acumulado diario utilizado para an�lisis y proyecci�n.</p>
+                </div>
+            </div>
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Litros reales por d�a</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td colspan="2"><div class="empty-card">No hay historial de leche disponible.</div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+    (function () {
+        const SIN_DATO = -1;
+        const etiquetas = ["06\/10","07\/10","08\/10","09\/10","10\/10","11\/10","12\/10","13\/10","14\/10","15\/10","16\/10","17\/10","18\/10","19\/10","20\/10","21\/10","22\/10","23\/10","24\/10","25\/10","26\/10","27\/10","28\/10","29\/10","30\/10","31\/10","01\/11","02\/11","03\/11","04\/11","05\/11 (pred.)"];
+        const produccionRaw = [-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0];
+        const regresionRaw = [-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0];
+        const regresionDisponible = false;
+
+        const produccionReal = produccionRaw.map(function (v) {
+            return (v == null || v < 0) ? null : v;
+        });
+        const lineaRegresion = regresionRaw.map(function (v) {
+            return (v == null || v < 0) ? null : v;
+        });
+
+        const canvas = document.getElementById("graficoLeche");
+        if (!canvas || typeof Chart === "undefined") return;
+
+        const datasets = [{
+            type: "bar",
+            label: "Producci�n real (L)",
+            data: produccionReal,
+            backgroundColor: "rgba(47, 107, 61, 0.55)",
+            borderColor: "rgba(47, 107, 61, 0.9)",
+            borderWidth: 1,
+            borderRadius: 6,
+            order: 2
+        }];
+
+        if (regresionDisponible) {
+            datasets.push({
+                type: "line",
+                label: "Regresi�n lineal (L)",
+                data: lineaRegresion,
+                borderColor: "rgba(195, 83, 63, 0.95)",
+                backgroundColor: "rgba(195, 83, 63, 0.08)",
+                borderWidth: 3,
+                pointRadius: 4,
+                pointBackgroundColor: "#c3533f",
+                tension: 0.15,
+                spanGaps: false,
+                order: 1
+            });
+        }
+
+        new Chart(canvas, {
+            data: {
+                labels: etiquetas,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: "index", intersect: false },
+                plugins: {
+                    legend: {
+                        position: "top",
+                        labels: { font: { family: "Manrope", size: 12 } }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (ctx) {
+                                const v = ctx.parsed.y;
+                                if (v == null || Number.isNaN(v)) return ctx.dataset.label + ": sin dato";
+                                return ctx.dataset.label + ": " + v.toFixed(2) + " L";
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: "Litros" },
+                        ticks: { callback: (v) => v + " L" }
+                    },
+                    x: {
+                        ticks: { maxRotation: 45, minRotation: 0, autoSkip: true, maxTicksLimit: 12 }
+                    }
+                }
+            }
+        });
+    })();
+</script>
+<script src="/js/ganado-ui.js"></script>
+    <div>
+  <section id="bovibot" class="bovibot" data-bovibot>
+    <input type="hidden" data-csrf value="84OO3x28YixOllshuGh5R9bILSn0dppJnz93SaRFqB--0ebEwrLo7n-IVhVjpGMRjEVNI-euAEjFEKNkqV5BK5QjziuKsIWl">
+    <button class="bovibot-launcher" type="button" aria-label="Abrir Asistente de BoviControl" title="Asistente de BoviControl" aria-expanded="false" data-open>
+      <span>Chat</span>
+    </button>
+    <aside class="bovibot-panel" role="dialog" aria-label="Asistente BoviBot" aria-modal="false" hidden data-panel>
+      <header class="bovibot-header" data-drag-handle>
+        <div class="bovibot-identity"><strong>Asistente BoviControl</strong><small>Disponible para consultas</small></div>
+        <nav><button type="button" title="Ampliar chat" data-full>Ampliar</button><button type="button" title="Cerrar chat" data-min data-close>Cerrar</button></nav>
+      </header>
+      <p class="bovibot-intro">Pregunta sobre ganader�a, c�mo usar BoviControl o consulta datos reales del hato.</p>
+      <form class="bovibot-form" data-form><textarea rows="1" maxlength="2000" placeholder="�Qu� quieres consultar?" aria-label="Tu pregunta" data-input></textarea><button type="submit" data-send>Enviar</button></form>
+      <p class="bovibot-suggestions-title">Elige una pregunta o cu�ntame qu� buscas</p>
+      <div class="bovibot-suggestions" data-suggestions>
+        <button type="button">�Cu�ntos ganados tenemos registrados?</button>
+        <button type="button">�Qu� raza es m�s com�n en el hato?</button>
+        <button type="button">�Cu�ntos ganados tienen vacunas aplicadas?</button>
+        <button type="button">Dime cu�les necesitan vacunaci�n esta semana</button>
+        <button type="button">�Qu� bovinos aparecen con estado enfermo?</button>
+        <button type="button">�Cu�nta leche produjo el hato en los �ltimos 7 d�as?</button>
+        <button type="button">�Qu� informaci�n tiene un bovino por su arete?</button>
+        <button type="button">�C�mo registro un ganado?</button>
+        
+      </div>
+      <div class="bovibot-messages" aria-live="polite" aria-label="Conversaci�n" data-messages></div>
+      <footer><button type="button" data-clear>Limpiar conversaci�n</button><span data-state>Enter para enviar</span></footer>
+    </aside>
+  </section>
+  <script src="/js/bovibot.js" defer></script>
+</div>
+</body>
+</html>
+
+
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.551 s -- in com.mi.proyecto.ganado.ganadoapp.PrediccionLechePageTest
+[INFO] Running com.mi.proyecto.ganado.ganadoapp.service.OptimizationServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in com.mi.proyecto.ganado.ganadoapp.service.OptimizationServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ ganadoapp ---
+[INFO] 
+[INFO] --- spring-boot:3.3.4:repackage (repackage) @ ganadoapp ---
+[INFO] Replacing main artifact C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\Proyecto_de_aula\ganadoapp-main\target\ganadoapp-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\Aprendiz IN\Documents\Codex\2026-11-04\qu\work\Proyecto_de_aula\ganadoapp-main\target\ganadoapp-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.646 s
+[INFO] Finished at: 2026-11-04T14:00:29-05:00
+[INFO] ------------------------------------------------------------------------

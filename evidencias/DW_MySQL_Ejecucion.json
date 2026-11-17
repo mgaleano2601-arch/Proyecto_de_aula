@@ -1,0 +1,35 @@
+{
+  "fecha": "2026-11-17",
+  "motor": "MySQL",
+  "version": "8.4.4",
+  "esquema": "bovicontrol_dw_verificado_20261117",
+  "animales": 24,
+  "aplicaciones": 72,
+  "registros_leche": 2376,
+  "litros": "22595.22",
+  "dosis_ultimas_por_estado": {
+    "1": 19,
+    "2": 26,
+    "3": 21,
+    "4": 6
+  },
+  "controles": [
+    {
+      "prueba": "duplicados_leche",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "leche_animal_huerfano",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "vacuna_fecha_huerfana",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "litros_negativos",
+      "resultado": "PASS"
+    }
+  ],
+  "resultado": "PASS"
+}

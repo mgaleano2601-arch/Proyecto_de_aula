@@ -34,3 +34,6 @@ El modelo analítico utiliza datos incorporados con Power Query; no hay refresco
 
 ## Pruebas y LLM
 `./mvnw.cmd test` con el perfil y MySQL configurados; para Python instalar `requirements-test.txt` y ejecutar `python -m pytest test_optimizer.py`. Ocho pruebas Java, siete Python y dieciocho verificaciones HTTP/MySQL aprobadas. El chatbot utiliza Groq mediante Java HttpClient si se configura GROQ_API_KEY; sin ella usa reglas limitadas. La respuesta externa requiere una clave propia y no se acredita mediante la prueba local sin clave. No se incluyen claves en el repositorio.
+
+## Documentación y evidencia
+Los cuatro informes finales están en `documentacion/`. Las capturas reales de Power BI, resultados del solver, pruebas Java/Python/HTTP, ejecución del DW MySQL y comprobación de descarga están en `evidencias/`. La declaración de IA distingue la asistencia realizada y el código previo.

@@ -1,0 +1,14 @@
+{
+  "fecha": "2026-11-17",
+  "repositorio": "https://github.com/mgaleano2601-arch/Proyecto_de_aula",
+  "commit_implementacion": "613b9a02660414491a040b8872aa4cf0621c1e3d",
+  "repositorio_original": "https://github.com/castrorojaseder565-jpg/Proyecto_de_aula",
+  "acceso": "publico",
+  "descarga_http": 200,
+  "pbix_bytes": 161830,
+  "sha256_pbix": "1e0afcddbd13c2a1f439dc367e735d15c5fccce0438a457bd724f9c07a936a47",
+  "descarga_identica_al_entregable": true,
+  "enlace_en_menu_admin_http": 200,
+  "enlace_verificado_en_html": true,
+  "modalidad": "descarga del PBIX para abrir en Desktop; no incrustacion en Power BI Service"
+}

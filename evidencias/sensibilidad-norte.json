@@ -1,0 +1,76 @@
+{
+  "status": "Optimal",
+  "objectiveValue": 9,
+  "assignments": [
+    {
+      "attentionId": 1,
+      "attentionName": "BOV-DEMO-01 / dosis A",
+      "veterinarianId": 1,
+      "veterinarianName": "Veterinaria demo Norte",
+      "score": 3,
+      "durationMinutes": 40
+    },
+    {
+      "attentionId": 2,
+      "attentionName": "BOV-DEMO-02 / dosis B",
+      "veterinarianId": 1,
+      "veterinarianName": "Veterinaria demo Norte",
+      "score": 2,
+      "durationMinutes": 30
+    },
+    {
+      "attentionId": 3,
+      "attentionName": "BOV-DEMO-03 / dosis C",
+      "veterinarianId": 1,
+      "veterinarianName": "Veterinaria demo Norte",
+      "score": 1,
+      "durationMinutes": 20
+    },
+    {
+      "attentionId": 4,
+      "attentionName": "BOV-DEMO-04 / dosis D",
+      "veterinarianId": 2,
+      "veterinarianName": "Veterinario demo Sur",
+      "score": 3,
+      "durationMinutes": 30
+    }
+  ],
+  "unassigned": [
+    {
+      "attentionId": 5,
+      "attentionName": "BOV-DEMO-05 / dosis E",
+      "reason": "No seleccionada en esta solución óptima con los recursos disponibles"
+    },
+    {
+      "attentionId": 6,
+      "attentionName": "BOV-DEMO-06 / dosis F",
+      "reason": "Sin veterinario disponible y compatible"
+    }
+  ],
+  "loads": [
+    {
+      "veterinarianId": 1,
+      "veterinarianName": "Veterinaria demo Norte",
+      "assignedCount": 3,
+      "usedMinutes": 90,
+      "maxCapacity": 3,
+      "availableMinutes": 90
+    },
+    {
+      "veterinarianId": 2,
+      "veterinarianName": "Veterinario demo Sur",
+      "assignedCount": 1,
+      "usedMinutes": 30,
+      "maxCapacity": 1,
+      "availableMinutes": 30
+    },
+    {
+      "veterinarianId": 3,
+      "veterinarianName": "Veterinaria demo sin turno",
+      "assignedCount": 0,
+      "usedMinutes": 0,
+      "maxCapacity": 2,
+      "availableMinutes": 60
+    }
+  ]
+}

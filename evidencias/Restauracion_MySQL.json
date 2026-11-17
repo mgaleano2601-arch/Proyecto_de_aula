@@ -1,0 +1,43 @@
+{
+  "restauracion": "PASS",
+  "tablas": {
+    "cuenta_estado_usuario": {
+      "origen": 0,
+      "restaurado": 0
+    },
+    "ganado": {
+      "origen": 6,
+      "restaurado": 6
+    },
+    "invitacion": {
+      "origen": 0,
+      "restaurado": 0
+    },
+    "io_atencion": {
+      "origen": 6,
+      "restaurado": 6
+    },
+    "io_run": {
+      "origen": 1,
+      "restaurado": 1
+    },
+    "io_turno": {
+      "origen": 3,
+      "restaurado": 3
+    },
+    "leche_registro": {
+      "origen": 0,
+      "restaurado": 0
+    },
+    "usuario": {
+      "origen": 4,
+      "restaurado": 4
+    },
+    "vacuna": {
+      "origen": 6,
+      "restaurado": 6
+    }
+  },
+  "objetivo_ejecucion_1": 7,
+  "historial_identico": true
+}

@@ -12,7 +12,7 @@ Eder Castro, Mateo Garrido y Andrea Galeano. Proyecto de Aula Interdisciplinario
 ## Versión
 Repositorio de referencia: https://github.com/castrorojaseder565-jpg/Proyecto_de_aula
 Commit base local: 3cc2c3b2380d4a1e3c46b9bb63b66a825b24178f.
-La copia adjunta incluye cambios locales del módulo IO. No se ha publicado esta consolidación ni se ha verificado el acceso actual al remoto. La configuración principal externaliza DB_PASSWORD y permite DB_URL; no se cambió la lógica probada.
+Copia final publicada: https://github.com/mgaleano2601-arch/Proyecto_de_aula. Commit de implementación 613b9a0. Se conservó el origen del proyecto y se publicó desde una cuenta con permiso. La configuración externaliza credenciales y el menú enlaza al PBIX público verificado.
 
 ## Requisitos
 Java 21, Maven 3.9 o wrapper, Python 3.11 o posterior compatible con requirements.txt, MySQL 8.4 y Power BI Desktop con soporte de proyectos PBIP/PBIR. Requiere acceso a Internet para resolver dependencias. CBC se obtiene con PuLP en plataformas compatibles; comprobar GET /health.
@@ -46,13 +46,13 @@ SELECT response_json FROM io_run;
 Se esperan seis bovinos y una ejecución con objectiveValue 7. Las cuentas del dump son ficticias y contienen hashes; no se distribuyen contraseñas. Para navegar con credenciales propias usar la nueva demostración anterior. Restauracion_MySQL.json conserva la comparación realizada sobre el dump original.
 
 ## Pruebas
-Desde Codigo_Fuente, con MySQL configurado, ejecutar ./mvnw.cmd test. Para Python instalar requirements-test.txt en el entorno del optimizador y ejecutar python -m pytest test_optimizer.py. Las evidencias Java/Python/HTTP incluidas corresponden a la ejecución histórica del 4 de noviembre, no a una repetición completa en esta consolidación.
+Desde Codigo_Fuente, con MySQL configurado, ejecutar ./mvnw.cmd test. Para Python instalar requirements-test.txt en el entorno del optimizador y ejecutar python -m pytest test_optimizer.py. Se conservan las pruebas iniciales y se añaden Java_2026-11-17.txt, Python_2026-11-17.txt e Integracion_2026-11-17.json: 8, 7 y 18 pruebas aprobadas, respectivamente.
 
 ## Power BI
-Extraer todo el ZIP. Abrir PowerBI/PowerBI/BoviControl.pbip manteniendo juntas las carpetas Report y SemanticModel. Son datos ficticios incorporados con Power Query; no hay extracción automática de MySQL. El corte es 2026-10-07. El DW SQLite ha sido reconciliado; el script MySQL del DW no tiene ejecución acreditada. Apertura e interacciones de Desktop y acceso al enlace publicado están pendientes de validación.
+Extraer el ZIP y abrir PowerBI/BoviControl.pbix directamente en Power BI Desktop. Incluye los datos cargados y las tres páginas verificadas. También se incluye PowerBI/PowerBI/BoviControl.pbip para edición; mantener juntas sus carpetas. Son datos ficticios con corte 2026-10-07, sin extracción automática desde MySQL. El DW se ejecutó y verificó tanto en SQLite como en MySQL. El menú de la aplicación descarga el mismo PBIX del repositorio público.
 
 ## LLM y otros componentes
 Groq es opcional: completar GROQ_API_KEY y GROQ_MODEL con una cuenta autorizada para validar una respuesta remota; no se incluyen claves ni se afirma una prueba remota. Sin clave existen respuestas limitadas por reglas. Weka realiza regresión lineal; CBC resuelve asignación binaria. No confundir estos tres mecanismos.
 
 ## Alcance de cierre
-Los documentos explican la evidencia y sus límites. Falta acreditar la demostración de Power BI Desktop, una respuesta de Groq cuando se evalúe ese módulo, publicación/acceso del código final y revisión de observaciones docentes no recuperadas. No se afirma que la entrega esté completamente validada para Ferrum mientras falten esas comprobaciones.
+Los documentos explican la evidencia y sus límites. Power BI Desktop, el DW MySQL, la copia pública del repositorio y las pruebas locales están verificados. Falta una clave propia para acreditar la respuesta remota de Groq. Las observaciones docentes no fueron facilitadas ni recuperadas; no se inventan correcciones. Estas limitaciones se mantienen explícitas en los documentos.

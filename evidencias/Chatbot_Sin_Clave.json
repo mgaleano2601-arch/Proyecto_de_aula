@@ -1,0 +1,20 @@
+{
+  "fecha": "2026-11-17",
+  "modo": "sin clave Groq; respuestas por reglas, no inferencia LLM",
+  "pruebas": [
+    {
+      "pregunta": "¿Cuántos ganados hay registrados?",
+      "http": 200,
+      "respuesta": {
+        "respuesta": "Ganados registrados: 6."
+      }
+    },
+    {
+      "pregunta": "¿Cómo uso BoviControl?",
+      "http": 200,
+      "respuesta": {
+        "respuesta": "Para responder preguntas generales con IA, configura la clave GROQ_API_KEY."
+      }
+    }
+  ]
+}

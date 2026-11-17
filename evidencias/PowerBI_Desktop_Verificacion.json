@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-11-17",
+  "aplicacion": "Power BI Desktop",
+  "version_instalada": "2.159.1231.0",
+  "paginas_verificadas": [
+    "Resumen",
+    "Vacunacion",
+    "Produccion"
+  ],
+  "indicadores_sin_filtro": {
+    "animales": 24,
+    "aplicaciones": 72,
+    "litros_visual": "22,60 mil",
+    "vencidas": 19,
+    "proximas": 26,
+    "animales_con_produccion": 12
+  },
+  "filtro_Holstein": {
+    "animales": 8,
+    "aplicaciones": 24,
+    "litros_visual": "7,33 mil",
+    "litros_contrastados_SQL": 7331.85
+  },
+  "limpieza_filtro": "Restituye 24 animales y 72 aplicaciones",
+  "correccion": "version.json PBIR 4.0.0 cambiado a 2.0.0; carga y guardado desde Desktop",
+  "PBIX_guardado": true,
+  "prueba_Groq_remota": "Pendiente de clave configurada; no se simulo proveedor"
+}

@@ -1,0 +1,77 @@
+{
+  "fecha_utc": "2026-11-17T19:32:09.806675+00:00",
+  "checks": [
+    {
+      "prueba": "Acceso anónimo redirigido al login",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Autenticación de administrador",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Recuperación HTTP del resultado persistido",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Persistencia MySQL: entrada y respuesta coherentes",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "CSRF: POST sin token no crea ejecución",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Crear atención",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Editar atención",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Bean Validation rechaza prioridad 99",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Rechazo de vacuna duplicada en jornada",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Eliminar atención de prueba",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Crear turno",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Editar turno",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Eliminar turno de prueba",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Contrato Spring/FastAPI reproduce objetivo",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "FastAPI rechaza duración cero",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Instancia vacía válida con objetivo cero",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Sensibilidad: Norte +30 minutos y +1 cupo",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Sensibilidad: habilitar turno Oriente",
+      "resultado": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "fecha_revision": "2026-11-17",
+  "motor_ejecutado": "SQLite",
+  "integridad": "ok",
+  "errores_fk": [],
+  "conteos": {
+    "DimAnimal": 24,
+    "DimFecha": 365,
+    "DimVacuna": 3,
+    "DimEstado": 4,
+    "DimTurno": 2,
+    "FactVacunacion": 72,
+    "FactLeche": 2376
+  },
+  "litros": 22595.22,
+  "tablas_modelo_semantico": [
+    "DimAnimal",
+    "DimFecha",
+    "DimVacuna",
+    "DimEstado",
+    "DimTurno",
+    "FactVacunacion",
+    "FactLeche"
+  ],
+  "relaciones_semanticas": 8,
+  "PowerBI_Desktop_ejecutado": true,
+  "MySQL_DW_ejecutado": true,
+  "evidencias_adicionales": [
+    "PowerBI_Desktop_Verificacion.json",
+    "DW_MySQL_Ejecucion.json"
+  ]
+}
