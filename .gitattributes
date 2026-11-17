@@ -1,0 +1,7 @@
+*.pdf binary
+*.pbix binary
+*.sqlite binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+evidencias/*.txt -text
